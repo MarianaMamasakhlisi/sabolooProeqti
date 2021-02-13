@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Automation Suite" verbose="1" thread-count="8" >
+    <test name="TestSuit1" >
+        <classes>
+            <class name="Mycreditinfo.LoginPage"/>
+            <class name="Mycreditinfo.PaketisYidva"/>
+            <class name="Mycreditinfo.RepotisGagzavna"/>
+            <class name="Mycreditinfo.SmsGagzavna"/>
+            <class name="Mycreditinfo.GadaxdebisPage"/>
+                    </classes>
+    </test>
+
+</suite>
